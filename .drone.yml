@@ -4,6 +4,6 @@ name: default
 
 steps:
 - name: testing
-  image: alpine
+  image: arm64v8/alpine
   commands:
   - echo "Hello from Drone"
